@@ -5,7 +5,7 @@ export default function Main() {
 				<div className="header-texts text-center">
 					<h5>Sunday Obinna</h5>
 					<h6>Frontend Developer</h6>
-					<small>Available for gire!</small>
+					<small>Available for hire!</small>
 				</div>
 				<div className="social-buttons text-center row">
 					<div className="email col-sm-6"><a className="btn btn-sm bg-light" href="mailto:sundayoruwhone@gmail.com"><i className="fa-solid fa-envelope"></i>&nbsp;Email</a></div>
