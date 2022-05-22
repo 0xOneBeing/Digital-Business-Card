@@ -1,19 +1,19 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+/*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
-.App-header {
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+/*.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +22,72 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+}*/
 
-.App-link {
+/*.App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*/
+
+:root {
+  --site-width: 300px;
+  --site-bgcolor: #282c34;
+  --site-color: #61dafb;
+}
+
+body, html {
+  background-color: var(--site-bgcolor);
+}
+
+.App {
+  color: var(--site-color);
+  margin: 0 auto;
+  width: var(--site-width) !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  padding: 10px;
+}
+
+.image {
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.email > a, .linkedin > a {
+  padding: 2px !important;
+}
+
+.about, .interest {
+  margin-top: 5px;
+}
+
+p > small {
+  font-size: 11px;
+  text-align: justify;
+}
+
+.tw {
+  color: #1DA1F2 !important;
+}
+
+.fb {
+  color: #4267B2;
+}
+
+.wa {
+  color: #25D366;
+}
+
+.ig {
+  color: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+  background-image: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+}
+
+.gh {
+  color: #fff;
 }
