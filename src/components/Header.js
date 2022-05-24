@@ -1,4 +1,4 @@
-import image from '../images/image.jpg'
+import image from '../images/image.svg'
 
 export default function Header() {
 	return (
